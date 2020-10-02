@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(image/hyxdbg.jpg);
+        background-size: 100%;
+        /* background-repeat: no-repeat; */
+    }
+    .pic{
+        position: absolute;
+        left: 15%;
+        top: 25%;
+        width: 30%;
+        z-index: 1;
+    }
+
+    .a1{
+        position: absolute;
+        top: 25%;
+        z-index: -1;
+    }
+
+    .a2{
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        z-index: -1;
+    }
+
+    .b1{
+        position: absolute;
+        top: 55%;
+        z-index: -1;
+    }
+
+    .b2{
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        z-index: -1;
+    }
+
+    .c1,.c2{
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+
+    }
+    .c1{
+        position: absolute;
+        top: 27.5%;
+        left: 50%;
+    }
+
+    .c2{
+        position: absolute;
+        top: 57.5%;
+        left: 50%;
+    }
+</style>
+<body>
+    <img src="image/hyxd1.png" alt="">
+    <img src="image/hyxd4.png" alt="" class="pic">
+    <div class="vc_pane show active" id="q1">
+        <img src="image/hyxd2.png" alt="" class="a1">
+        <img src="image/hyxd3.png" alt="" class="a2">
+    </div>
+    <div class="vc_pane" id="w1">
+        <img src="image/hyxd2.png" alt="" class="b1">
+        <img src="image/hyxd3.png" alt="" class="b2">
+    </div>
+    <ul class="vc_tab">
+        <li class="nav-item">
+            <a class="vclink active c1" href="#q1">全新联动玩法</br>大魔斗演武</a>
+        </li>
+        <li class="nav-item">
+            <a class="vclink c2" href="#w1">飓风半岛，暗涌四起，</br>战火一触即发</a>
+        </li>
+    
+        
+    
+    <script type="text/javascript" src="js/jquery.js "></script>
+    <script type="text/javascript" src="js/popper.min.js "></script>
+    <script type="text/javascript" src="js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="js/vc.js"></script>    
+</body>
+</html>
